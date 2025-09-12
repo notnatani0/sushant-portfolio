@@ -12,14 +12,22 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
 
   return (
-    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+    <section
+      className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
+      id="home"
+    >
       <HeroText />
       <ParallaxBackground />
       <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
+        aria-hidden="true"
       >
-        <Canvas camera={{ position: [0, 1, 3] }}>
+        <Canvas
+          camera={{ position: [0, 1, 3], fov: 75 }}
+          performance={{ min: 0.5 }}
+          dpr={[1, 2]}
+        >
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut
@@ -45,4 +53,5 @@ function Rig() {
     );
   });
 }
+
 export default Hero;
