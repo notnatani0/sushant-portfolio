@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { TechStack } from "../components/TechStack";
@@ -8,7 +7,7 @@ import { SocialDock } from "../components/SocialDock";
 const About = () => {
   const grid2Container = useRef();
   return (
-    <section className="c-space section-spacing">
+    <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me!</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* GRID - 1 */}
@@ -40,47 +39,6 @@ const About = () => {
             <div className="z-50 items-center justify-center">
               <SocialDock className="items-center justify-between p-10" />
             </div>
-            {/* <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="DESIGN PATTERN"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="SRP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "30%" }}
-              text="MERN"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="/assets/logos/csharp-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="/assets/logos/dotnet-pink.png"
-              containerRef={grid2Container}
-            />
-
-            <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="/assets/logos/blazor-pink.png"
-              containerRef={grid2Container}
-            /> */}
           </div>
         </div>
         {/* GRID - 3 */}
