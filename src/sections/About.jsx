@@ -17,7 +17,7 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hii, I'm sushant</p>
+            <p className="headtext">Hii, I'm sushant aka Sushiee</p>
             <p className="subtext">
               Caffeine-powered full-stack developer who speaks fluent JavaScript
               and broken English. I turn bugs into learning opportunities
@@ -31,14 +31,14 @@ const About = () => {
         <div className="grid-default-color grid-2">
           <div
             ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
+            className="flex flex-col md:flex-row items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
+            <p className="flex items-end text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-500">
               Follow My, Chaos!
             </p>
-            <div className="z-50 items-center justify-center">
-              <SocialDock className="items-center justify-between p-10" />
-            </div>
+            <figure className="flex items-center justify-center w-full md:w-auto">
+              <SocialDock />
+            </figure>
           </div>
         </div>
         {/* GRID - 3 */}
@@ -46,7 +46,9 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based India, and OPen to the oppourines
+              Based in India (IST), available for global collaborations. I'm
+              flexible with time zones and love working with international
+              teams.
             </p>
             <figure className="absolute left-[30%] top-[10%]">
               <Globe />
