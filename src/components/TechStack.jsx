@@ -2,22 +2,22 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function TechStack() {
   const skills = [
-    "auth0",
-    "blazor",
+    "firebase",
+    "nextjs",
     "cplusplus",
-    "csharp",
+    "express",
     "css3",
-    "dotnet",
-    "dotnetcore",
+    "nodejs",
+    "typescript",
     "git",
     "html5",
     "javascript",
-    "microsoft",
+    "mongodb",
     "react",
-    "sqlite",
     "tailwindcss",
     "vitejs",
     "wordpress",
+    "postman",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
