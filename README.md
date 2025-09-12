@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This platform is designed to showcase 
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Responsive Design**: Fully optimized for all devices, including desktops, tablets, and mobile phones.
 - **Interactive Animations**: Smooth transitions and engaging visuals for an enhanced user experience.
@@ -14,7 +14,7 @@ Welcome to my personal portfolio website! This platform is designed to showcase 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS
 - **Build Tool**: Vite
@@ -22,12 +22,12 @@ Welcome to my personal portfolio website! This platform is designed to showcase 
 
 ---
 
-## 📬 Contact
+## Contact
 
 I’d love to connect with you! Feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **Email**: [Drop me an email](mailto:sushantnatani007@email.com)
+- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/sushant-natani)
+- **GitHub**: [GitHub Profile](https://github.com/notnatani0)
 
 Thank you for visiting my portfolio!
