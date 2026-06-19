@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hii, I'm sushant aka Sushiee</p>
             <p className="subtext">
-              Caffeine-powered full-stack developer who speaks fluent JavaScript
+              Caffeine-powered frontend developer who speaks fluent JavaScript
               and broken English. I turn bugs into learning opportunities
               because optimism is key. When not coding, I'm either stuck in
               Valorant or convincing myself that tutorials count as "studying".
